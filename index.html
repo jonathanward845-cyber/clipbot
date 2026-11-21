@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClipBot</title>
+<meta name="description" content="ClipBot is a private tool that edits stream highlights into short vertical videos and uploads them to its operator's own YouTube channels.">
+<style>
+  :root { --bg:#0f1115; --card:#181b22; --text:#e8eaef; --muted:#9aa1ad; --accent:#ffd400; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:56px 16px 40px; }
+  h1 { font-size:2.6rem; margin:0 0 4px; letter-spacing:-.02em; }
+  h1 span { color:var(--accent); }
+  .tag { color:var(--muted); margin:0 0 36px; font-size:1.1rem; }
+  .card { background:var(--card); border-radius:14px; padding:22px 24px; margin-bottom:18px; }
+  h2 { font-size:1.15rem; margin:0 0 8px; }
+  p { margin:0 0 10px; } p:last-child { margin:0; }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:.9rem; margin-top:36px; border-top:1px solid #262a33; padding-top:18px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Clip<span>Bot</span></h1>
+  <p class="tag">Stream highlights, cut into Shorts.</p>
+
+  <div class="card">
+    <h2>What it does</h2>
+    <p>ClipBot is a private tool that takes popular public clips from live streams, edits them into short
+    vertical "Top 5" compilations with captions, and uploads them to YouTube channels owned and run by
+    the ClipBot operator.</p>
+  </div>
+
+  <div class="card">
+    <h2>How it uses YouTube</h2>
+    <p>ClipBot uses the YouTube Data API only to upload finished videos (with title, description and tags)
+    to the operator's own channels, after the operator approves each video. It does not read, change or
+    delete anything else on a YouTube account, and it is not offered to the public.</p>
+  </div>
+
+  <div class="card">
+    <h2>Credit to creators</h2>
+    <p>Every video credits the original streamer and links to their channel and the source clips.
+    Creators who would like their content removed can get in touch using the contact details on the
+    <a href="privacy.html">privacy policy</a> page.</p>
+  </div>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms.html">Terms of Service</a>
+    &nbsp;·&nbsp; ClipBot is not affiliated with YouTube, Google or Twitch.
+  </footer>
+</main>
+</body>
+</html>
