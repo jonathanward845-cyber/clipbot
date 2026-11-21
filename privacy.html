@@ -24,9 +24,13 @@
   the operator owns.</p>
 
   <h2>Information the app accesses</h2>
-  <p>When a YouTube channel is connected, the app asks Google for permission to upload videos to that
-  channel (scope <code>https://www.googleapis.com/auth/youtube.upload</code>). Google then gives the app
-  an access token and refresh token for that channel.</p>
+  <p>When a YouTube channel is connected, the app asks Google for two permissions:</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/youtube.upload</code> to upload videos to that channel;</li>
+    <li><code>https://www.googleapis.com/auth/youtube.readonly</code>, used only to read the connected
+    channel's name once, so the operator can confirm the right channel was linked.</li>
+  </ul>
+  <p>Google then gives the app an access token and refresh token for that channel.</p>
   <p>The app does not access your email address, contacts, viewing history, comments, subscribers,
   analytics or any other Google account data.</p>
 
